@@ -66,6 +66,11 @@ pip install -r requirements.txt
 streamlit run UberEatsAnalyticsSystem.py
 ```
 
+```
+database/my_database.db – this file is not checked in due to size constraints. Execute scripts/UberEatsDataSet.py for the dateset creation and database creation. 
+
+```
+
 ## Key Business Functionalities Achieved
 1. Dashboard Page
 - Provides multiple filtering options for users
