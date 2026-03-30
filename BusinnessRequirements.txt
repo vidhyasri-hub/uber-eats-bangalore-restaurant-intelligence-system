@@ -1,0 +1,62 @@
+Project Title: 
+    Uber Eats Bangalore Restaurant Intelligence & Decision Support Systems
+Skills take away From This Project:
+    Python, Pandas, MySQL, Streamlit, Statistics, Data Organizing, Data Cleaning.
+Domain : 
+    SQL / Data Engineering / Python/ Data Scientist / Data Analyst
+
+Problem Statement:
+    Uber Eats operates a large-scale restaurant marketplace where business success depends on factors such as location strategy, pricing, cuisine mix, customer ratings, and platform features like online ordering and table booking.
+The objective of this project was to analyze Uber Eats Bangalore restaurant data and build a decision support system that answers critical business questions using Python and SQL, presenting results as clean tabular DataFrame outputs in Streamlit (no charts or visualizations).
+This approach mirrors real internal analytics dashboards, where stakeholders often require precise tabular insights rather than visual storytelling.
+Business Use Cases : 
+Location Intelligence
+Partner Onboarding Strategy
+Pricing Optimization
+Cuisine Performance Analysis
+Product Feature Impact Assessment
+Market Segmentation
+Customer Satisfaction Drivers
+Expansion & Premium Restaurant Planning
+
+Approach:
+Data Extraction & Transformation (Python)
+Source data loaded from CSV
+Data cleaning using Pandas:
+Duplicate removal
+Missing value handling
+Rating normalization
+Cost standardization
+Feature engineering for pricing segments and rating categories
+
+Database Layer (SQL):
+Cleaned data stored in Relational Database - example- MySQL
+Cursor-based SQL queries executed
+
+3.Streamlit Application (No Visualization)
+The Streamlit application is designed without graphical visualizations and is used exclusively for:
+Executing SQL queries
+Displaying DataFrame-based results
+Allowing business users to explore insights through structured tabular outputs
+
+Application Structure
+1. Dashboard Page
+Provides multiple filtering options for users
+Allows users to filter and retrieve data dynamically from the SQL database
+Displays the filtered results in DataFrame/table format
+All filtering logic is implemented strictly using SQL queries
+
+2. Q&A Page
+Displays analysis for 10 predefined business questions
+Each answer is generated through SQL-based computation
+Results are presented in structured table format within Streamlit
+
+3. Order Data Integration & Custom Analytical Q&A
+In addition to existing datasets:
+The generated order dataset (originally stored in JSON format) will be imported and stored in the SQL database as a structured table.
+All order-related analysis will also be executed using SQL queries.
+
+A custom Q&A module will be implemented specifically for the order dataset
+The system will support answering as many meaningful business queries as possible, leveraging SQL-based computation for consistency and efficiency
+
+
